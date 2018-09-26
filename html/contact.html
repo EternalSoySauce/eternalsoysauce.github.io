@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/ContactPage.css">
+    <link rel="stylesheet" type="text/css" href="../css/defaultStyle.css">
+    <script src="../js/storeFrameSrc.js"></script>
+</head>
+<body onload="changeChildiframeSrc('serviceiframe',4);">
+<div class="container">
+
+    <div class="divStaticPicture">
+        <img src="../img/staticImg4.jpg" width="100%" height="100%">
+    </div>
+
+    <div class="divDetail">
+        <div class="divList">
+            <table class="tbList" border="0">
+                <tr>
+                    <td>                
+                        <ul>
+                            <li><a href="frmcontact.html" onclick="storeChildiframeSrc('frmcontact.html',4);" target="ServiceDispArea">联系我们</a></li>
+                        </ul> 
+                    </td>
+                </tr>				
+            </table>
+			
+			<table id="tbWechat">
+				<tr>
+					<td>扫一扫关注微信</td>
+				</tr>
+				<tr>
+					<td>
+						<img id="wechat" src="../img/wechat.png">
+					</td>
+				<tr>
+			</table>
+        </div>
+
+        <iframe id="serviceiframe" name="ServiceDispArea" frameborder="0" scrolling="no"></iframe>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+.container {
+	width: 100%;
+	height: 795px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: white;
+}
+	
+	.divStaff{
+		width: 100%;
+		height: auto;
+		margin-bottom: 30px;
+	}
+	
+		.divStaff img{
+			width: 150px;
+			height: 150px;
+			float: left;
+		}
+		
+		.divStaff span{	
+			width: 70%;
+			height: 150px;
+			margin-left: 25px;
+			padding-top: 30px;
+			float: left;
+		}		
+			
+			.divStaff span p{
+				max-width: 97%;
+				line-height: 26px;
+				letter-spacing: 1px;
+				font-family: Microsoft YaHei;
+			}
+			
+			p{
+				font-family: Microsoft YaHei;
+			}

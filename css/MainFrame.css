@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+}
+
+.divLogo{
+    width: 100%;
+    height: 65px;
+}
+	
+.navChannel {
+	width: 100%;
+    height: 45.5px;
+    border: 1px solid #e3e3e3;
+	background-image: linear-gradient(0deg, #cccccc, #ffffff);
+}
+
+	.item1 {
+		width: 80%;
+		height: 72%;
+		margin: auto;
+		padding-top: 12px;
+		list-style: none;   
+		text-align: center;
+		font-size: medium;
+		font-weight: bold;
+		font-family: Microsoft YaHei;			
+	}
+
+		.item1 li {  
+			width: 20%;
+			height: 100%;
+			float: left;
+			display: inline;
+			position: relative; /* 使子選單依照母選單的座標顯示 */
+		}
+
+			.item1 li:hover > ul {  
+				display: block; /* 滑鼠滑入母選單後，顯示子選單 */
+			}
+
+	/* 二級選單顯示於一級選單的正下方 */
+	.item2 {   
+		clear: both;
+		position: absolute;  
+		top: 100%; 
+		margin-left: 40px;
+		margin-right: 40px;	
+		padding-left: 22px;
+		padding-right: 9px;
+		text-align: center;
+		font-size: 15px;
+		font-weight: bold;
+		font-family: Microsoft YaHei;			 
+		list-style: none; 
+		background: rgba(230,230,230,0.6);	
+		display: none;		
+	}
+		.item2 li { 
+			width: 90%;	
+			padding-top: 5px;
+			padding-bottom: 5px;	
+			display: inline;
+			position:relative;		
+		}
+
+iframe{
+    width: 100%;
+    height: 910px;
+}
+
+.divFooting{
+    width: 100%;
+    height: 39px;
+    margin-top: 4px;
+    background-color: #c0c0c0;
+}
+
+	#tbFooting{
+	    width: 100%;
+	    text-align: center;
+	    margin-left: 7%;
+	    padding-top: 7px;
+		font-family: Microsoft YaHei;
+	}
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/OtherPage.css">
+    <link rel="stylesheet" type="text/css" href="../css/defaultStyle.css">
+    <script src="../js/storeFrameSrc.js"></script>
+</head>
+<body onload="changeChildiframeSrc('disclaimeriframe',0);">
+<div class="container">
+    <div class="divStaticPicture">
+        <img src="../img/staticImg1.jpg" width="100%" height="100%">
+    </div>
+
+    <div class="divDetail">
+        <div class="divList">
+            <table class="tbList">
+                <tr>
+                    <td>
+                        <ul>
+                            <li><a href="frmdisclaimer.html" onclick="storeChildiframeSrc('frmdisclaimer.html',0);" target="DisclaimerDispArea">免责声明</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <iframe id="disclaimeriframe" name="DisclaimerDispArea" frameborder="0" scrolling="no"></iframe>
+    </div>
+</div>
+</body>
+</html>

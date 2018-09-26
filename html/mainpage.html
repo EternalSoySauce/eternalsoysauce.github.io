@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/swiper-3.3.0.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/MainPage.css">
+	<link rel="stylesheet" type="text/css" href="../css/defaultStyle.css">
+	<script src="../js/clickToDisplay.js"></script>
+</head>
+
+<body onunload="onStop();">
+	<div class="container">		
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="../img/autoImg1.jpg" width="100%" height="100%"/></div>
+				<div class="swiper-slide"><img src="../img/autoImg2.jpg" width="100%" height="100%"/></div>
+				<div class="swiper-slide"><img src="../img/autoImg3.jpg" width="100%" height="100%"/></div>
+				<div class="swiper-slide"><img src="../img/autoImg4.jpg" width="100%" height="100%"/></div>				
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>					
+		</div>
+		
+		<script src="../js/swiper-3.3.0.min.js"></script>		
+		<script>
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				slidesPerView: 1,
+				paginationClickable: true,
+				spaceBetween: 0,
+				centeredSlides: true,
+				speed: 1500,				
+				autoplay: 5000,
+				preventLinks: true,
+				grabCursor: true,
+				autoplayDisableOnInteraction: false,
+				loop: true				
+			});
+		</script> 	
+
+		<div class="divDetail">
+			<div id="service">
+				<div id="tel">
+					<table class="tbDetail">
+						<tr class="trTitle">
+							<th id="thTel" onclick="changeDisplay('thTel');">> 24小时电话：</th>
+						</tr>
+						<tr id="trNumber">
+							<td>
+								<ul class="ulTel">
+									<li>0831-5498 999</li>
+									<li>130-9620-0230</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<div id="include">
+					<table class="tbDetail">
+						<tr class="trTitle">
+							<th  id="thPurview" onclick="changeDisplay('thPurview');">> 服务范围：</th>
+						</tr>
+						<tr id="trAddress">
+							<td>
+								<ul class="ulAddress">
+									<li>南岸</li>
+									<li>老城区</li>
+									<li>上江北</li>
+									<li>下江北</li>
+									<li>临港区</li>
+									<li>象鼻街道</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<div id="profile">
+				<h3><b>公司概况</b></h3>
+				<p>宜宾市750开锁服务公司是近几年新兴起的集开锁换锁为主营项目，同时涵盖各类家政服务的综合服务企业，从最初的只有一张桌子一张椅子一台配钥匙机器的个体经营模式发展成为如今的由工商注册、公安备案的正规开锁换锁企业，是多个部门认可的服务龙单位，服务更安全，更放心。</p><br/>
+				<h3><b>合作伙伴</b></h3>
+				<p>本公司与“广东金点原子制锁有限公司”和“樱花卫厨（中国）股份有限公司”均有合作。首页东西忘记你说咋写了，这俩公司还用介绍吗？后边的合作伙伴都介绍了啊，所以首页的东西全是重复的啊。。。</p><br/>
+				<h3><b>公安备案.工商注册</b></h3>
+				<p>公安备案号：0048--注册号440307109202576.  没看着谁家网页把这玩意写明面上的，你说我该写点啥？</P>
+			</div>
+			
+			<div id="contact">
+				<table id="tbWechat">
+					<tr>
+						<td>加微信 你我更亲近</td>
+					</tr>
+					<tr>
+						<td>
+							<img id="wechat" src="../img/wechat.png">
+						</td>
+					<tr>
+				</table>				
+			</div>
+		</div>
+	</div>
+</body>
+</html>

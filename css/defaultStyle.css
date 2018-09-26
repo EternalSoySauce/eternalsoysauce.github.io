@@ -1,0 +1,28 @@
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active{
+    text-decoration: none;
+    color: red;
+}
+
+ul, li{
+	white-space: nowrap;
+}
+
+table{
+	border: none;
+}
+
+td, th{
+	white-space: nowrap;
+}
+
+p{
+	text-indent: 2em;
+	font-family: Microsoft YaHei;
+}
+
+

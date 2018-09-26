@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+
+div{
+    padding-bottom: 2px;
+}
+
+.container{
+    background-color: snow;
+    width: 100%;
+    height: 2000px;
+}
+
+.divStaticPicture{
+    width: 100%;
+    height: 300px;
+}
+
+.divDetail{
+    width: 70%;
+    height: 82%;
+    margin: 25px auto;
+    background-color: #f6f6f6;
+}
+
+	.divList{
+	    width: 25%;
+	    height: 100%;
+	    float: left;
+	}
+
+		ul{
+			margin-top: 20px;
+			margin-left:15px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			width: 100%;
+			border-bottom: 1px dotted gray;
+		}
+		
+		li{
+			font-variant: small-caps;
+			font-weight: bold;
+			list-style: none;
+		}
+		
+		#tbWechat{
+			width: 20%;
+			margin-top: 25px;
+			margin-left: 36px;
+			font-size:15px;
+			font-family: Microsoft YaHei;
+			float: left;
+		}
+		
+			#wechat{
+				width: 100px;
+				height: 100px;
+				border: 1px solid lightgray;			
+			}
+			
+	iframe{
+	    width: 72%;
+	    height: 81.5%;
+	    float: left;
+	}

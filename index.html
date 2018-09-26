@@ -1,1 +1,71 @@
-Hello Moto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>七五零开锁服务有限公司</title>
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/MainFrame.css">
+	<link rel="stylesheet" type="text/css" href="css/defaultStyle.css">
+	<script src="js/storeFrameSrc.js"></script>
+</head>
+
+<body onload="changeMainiframeSrc();" onunload="onunload();">
+	<div class="container">
+		<div class="divLogo">
+			<a href="html/mainpage.html" onclick="storeMainiframeSrc('html/mainpage.html'); changeMainiframeHeight();" target="MainFrameDispArea">
+				<img src="img/logo.png" width="100%" height="100%" border="0">
+			</a>
+		</div>	
+		
+		<nav class="navChannel">  
+			<ul class="item1">    
+				<li><a href="html/mainpage.html" onclick="storeMainiframeSrc('html/mainpage.html'); changeMainiframeHeight();" 
+				target="MainFrameDispArea">首页</a></li>    
+				<li><a href="html/about.html" onclick="storeMainiframeSrc('html/about.html'); storeChildiframeSrc('frmaboutprofile.html',1); changeMainiframeHeight();" target="MainFrameDispArea">关于我们</a>      
+					<ul class="item2">              
+						<li><a href="html/about.html" onclick="storeMainiframeSrc('html/about.html'); storeChildiframeSrc('frmaboutprofile.html',1); changeMainiframeHeight();" target="MainFrameDispArea">公司简介</a></li>        
+						<li><a href="html/about.html" onclick="storeMainiframeSrc('html/about.html'); storeChildiframeSrc('frmaboutstaff.html',1); changeMainiframeHeight();" target="MainFrameDispArea">公司成员</a></li>
+						<li><a href="html/about.html" onclick="storeMainiframeSrc('html/about.html'); storeChildiframeSrc('frmaboutculture.html',1); changeMainiframeHeight();" target="MainFrameDispArea">企业文化</a></li>  
+						<li><a href="html/about.html" onclick="storeMainiframeSrc('html/about.html'); storeChildiframeSrc('frmaboutassociate.html',1); changeMainiframeHeight();" target="MainFrameDispArea">合作伙伴</a></li>  						
+					</ul>    
+				</li>    
+				<li><a href="html/servicesubject.html" onclick="storeMainiframeSrc('html/servicesubject.html'); storeChildiframeSrc('frmserviceinclude.html',2); changeMainiframeHeight();" target="MainFrameDispArea">服务项目</a>
+					<ul class="item2">              
+						<li><a href="html/servicesubject.html" onclick="storeMainiframeSrc('shtml/ervicesubject.html'); storeChildiframeSrc('frmserviceinclude.html',2); changeMainiframeHeight();" target="MainFrameDispArea">服务项目</a></li>        
+						<li><a href="html/servicesubject.html" onclick="storeMainiframeSrc('html/servicesubject.html'); storeChildiframeSrc('frmservicehousekeeping.html',2); changeMainiframeHeight();" target="MainFrameDispArea">家政服务</a></li>						
+					</ul>    
+				</li>    
+				<li><a href="html/productcenter.html" onclick="storeMainiframeSrc('html/productcenter.html'); storeChildiframeSrc('frmproductshowdoor.html',3); changeMainiframeHeight();" target="MainFrameDispArea">产品中心</a>
+					<ul class="item2">              
+						<li><a href="html/productcenter.html" onclick="storeMainiframeSrc('html/productcenter.html'); storeChildiframeSrc('frmproductshowdoor.html',3); changeMainiframeHeight();" target="MainFrameDispArea">门&nbsp;&nbsp;&nbsp;锁</a></li>        
+						<li><a href="html/productcenter.html" onclick="storeMainiframeSrc('html/productcenter.html'); storeChildiframeSrc('frmproductshowcar.html',3); changeMainiframeHeight();" target="MainFrameDispArea">车&nbsp;&nbsp;&nbsp;锁</a></li>
+						<li><a href="html/productcenter.html" onclick="storeMainiframeSrc('html/productcenter.html'); storeChildiframeSrc('frmproductshowlock.html',3); changeMainiframeHeight();" target="MainFrameDispArea">锁&nbsp;&nbsp;&nbsp;芯</a></li>  
+						<li><a href="html/productcenter.html" onclick="storeMainiframeSrc('html/productcenter.html'); storeChildiframeSrc('frmproductshowboiler.html',3); changeMainiframeHeight();" target="MainFrameDispArea">热水器</a></li>  						
+					</ul>   
+				</li> 
+				<li><a href="html/contact.html" onclick="storeMainiframeSrc('html/contact.html'); storeChildiframeSrc('frmcontact.html',4); changeMainiframeHeight();" target="MainFrameDispArea">联系我们</a>
+				</li>				
+			</ul>
+		</nav>
+		
+		<iframe id="mainiframe" name="MainFrameDispArea" frameborder="0" scrolling="no"></iframe>
+		
+		<div class="divFooting">
+			<table id="tbFooting">
+				<tr>
+					<td width="15%">
+						<small>公安备案&nbsp;&nbsp;|&nbsp;&nbsp;</small>
+						<a href="html/disclaimer.html" onclick="storeMainiframeSrc('html/disclaimer.html'); storeChildiframeSrc('frmdisclaimer.html',0); changeMainiframeHeight(); javascript:scroll(0,0)"
+						target="MainFrameDispArea"><small>免责声明</small></a>
+						<small><a href="html/contact.html" onclick="storeMainiframeSrc('html/contact.html'); storeChildiframeSrc('frmcontact.html',4); changeMainiframeHeight(); javascript:scroll(0,0)"
+						target="MainFrameDispArea">&nbsp;&nbsp;|&nbsp;&nbsp;联系我们</a></small>
+					</td>
+					<td width="85%">
+						<small>版权所有 深圳市汇顶科技股份有限公司 Copyright© 2013-2014 Goodix. Ltd. 保留一切权利。粤ICP备14039610号-1 </small>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

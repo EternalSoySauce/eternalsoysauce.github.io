@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/OtherPage.css">
+    <link rel="stylesheet" type="text/css" href="../css/defaultStyle.css">
+    <script src="../js/storeFrameSrc.js"></script>
+</head>
+
+<body onload="changeChildiframeSrc('productiframe',3);">
+<div class="container">
+
+    <div class="divStaticPicture">
+        <img src="../img/staticImg3.jpg" width="100%" height="100%">
+    </div>
+
+    <div class="divDetail">
+        <div class="divList">
+            <table class="tbList">
+                <tr>
+                    <td>
+                        <ul>
+                            <li><a href="frmproductshowdoor.html" onclick="storeChildiframeSrc('frmproductshowdoor.html',3);" target="ProductDispArea">产品展示</a></li>
+                        </ul>  
+						<span>
+							<p><a href="frmproductshowdoor.html" onclick="storeChildiframeSrc('frmproductshowdoor.html',3);" target="ProductDispArea">门锁</a></p>
+							<p><a href="frmproductshowcar.html" onclick="storeChildiframeSrc('frmproductshowcar.html',3);" target="ProductDispArea">车锁</a></p>
+							<p><a href="frmproductshowlock.html" onclick="storeChildiframeSrc('frmproductshowlock.html',3);" target="ProductDispArea">锁芯</a></p>
+							<p><a href="frmproductshowboiler.html" onclick="storeChildiframeSrc('frmproductshowboiler.html',3);" target="ProductDispArea">热水器</a></p>
+						<span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <iframe id="productiframe" name="ProductDispArea" frameborder="0" scrolling="no"></iframe>
+    </div>
+</div>
+</body>
+</html>
